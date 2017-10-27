@@ -10,5 +10,10 @@ Functional Programming (lisp)
 recursion logic programming (prolog)
 ====
 
-* task 3 ex 5:
+* [task 3 ex 5](lab3_prolog.pl):
 > симметричен ли список
+
+launch:
+```bash
+swipl -s lab3_prolog.pl
+```
