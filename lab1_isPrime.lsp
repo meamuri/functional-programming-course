@@ -13,3 +13,8 @@
 )
 
 (print (isprime 7))
+(print (isprime 13))
+(print (isprime 19))
+(print (isprime 25))
+(print (isprime 40))
+(print (isprime 97))
