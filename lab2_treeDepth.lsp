@@ -37,3 +37,6 @@
     '(A (B))
   )
 )
+
+; http://shrager.org/llisp/13.html
+; a bit about trees
