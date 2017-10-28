@@ -2,5 +2,4 @@
 Симметричен ли список?
 */
 
-is_palindrome(L) :- reverse(L,L)
-
+is_palindrome(L) :- reverse(L,L).
