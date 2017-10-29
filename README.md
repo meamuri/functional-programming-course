@@ -1,6 +1,13 @@
 Functional Programming (lisp)
 =====
 
+[sbcl](http://www.sbcl.org/) is used
+
+launch:
+```bash
+sbcl --script filename.lisp
+```
+
 * [task1 ex 8](lab1_isPrime.lisp): 
 > Проверить, является ли указанное число простым
 
