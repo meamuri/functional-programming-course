@@ -38,5 +38,18 @@
   )
 )
 
+;;
+;;     A
+;;    / \
+;;   B   C
+;;  / \  |
+;; D   E F
+(print 
+  (maxdepth 
+    '(A (B (D) (E)) (C (F)))
+  )
+)
+
+
 ; http://shrager.org/llisp/13.html
 ; a bit about trees
