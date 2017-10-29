@@ -27,4 +27,6 @@ is_sym([a, b, c]).
 is_sym([a, b, b, a]).
 
 is_sym([a, b, c, a]).
+
+is_rev(...). /* same lists */
 ```
