@@ -20,11 +20,11 @@ swipl -s lab3_prolog.pl
 
 work:
 ```prolog
-is_sym([a, b, a])
+is_sym([a, b, a]).
 
-is_sym([a, b, c])
+is_sym([a, b, c]).
 
-is_sym([a, b, b, a])
+is_sym([a, b, b, a]).
 
-?- is_sym([a, b, c, a])
+is_sym([a, b, c, a]).
 ```
