@@ -1,7 +1,7 @@
 Functional Programming (lisp)
 =====
 
-* [task1 ex 8](lab1_isPrime.lsp): 
+* [task1 ex 8](lab1_isPrime.lisp): 
 > Проверить, является ли указанное число простым
 
 * [task2 ex 5](lab2_treeDepth.lsp):

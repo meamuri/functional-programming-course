@@ -14,8 +14,7 @@
     (return-from isprime t)
 )
 
-;; Функция, проверяющая, является ли x корнем многочлена с коэффициентами a, b, c
-;; Если коэффициенты многочлена не заданы, будет взят многочлен x^2 - 2*x + 1
+;; service provides userfriendly output
 (defun prime-service (x)
   (if (equal (isprime x) nil)
 		(format t "~D is prime number ~%" x)
