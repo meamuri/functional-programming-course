@@ -1,3 +1,4 @@
+#!/usr/bin/sbcl --script
 ;; Определить высоту дерева
 
 (defun maxdepth (l)
