@@ -5,6 +5,9 @@
 (defun isprime (x)
   (if (< x 2)
 	  (return-from isprime nil)
+	;; ceiling and fceiling produce a quotient that has been truncated toward positive infinity; 
+	;; that is, the quotient represents the smallest mathematical integer 
+	;; that is not smaller than the mathematical result.
 	(dotimes (i (+ (ceiling (sqrt x)) 1))
 	  (if (> i 1)
 		  (if (< i x)
