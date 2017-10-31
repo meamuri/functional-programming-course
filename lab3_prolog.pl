@@ -8,7 +8,6 @@ is_sym(L) :- reverse(L,L).
 /* implementation. */
 my_reverse(List, Rev) :-
         my_reverse(List, Rev, []).
-
 my_reverse([], L, L).
 my_reverse([H|T], L, SoFar) :-
         my_reverse(T, L, [H|SoFar]).
