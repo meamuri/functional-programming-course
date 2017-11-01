@@ -3,7 +3,7 @@
 
 (defun maxdepth (l)
   (cond ((null l) 0)
-        ((atom l) 0)
+        ((atom l) 1)
         ;;  t ensures that the last action is performed if none other would.
         (t (+ 1 (max (maxdepth (cadr l)) (maxdepth (caddr l)))))
   )
